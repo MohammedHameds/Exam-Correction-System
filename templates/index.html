@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Exam Correction System</title>
+    <style>
+        #loading {
+            color: #ff9900; 
+            font-weight: bold;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Exam Correction System</h1>
+        <form method="POST" onsubmit="document.getElementById('loading').style.display='block';">
+            <label for="teacher_answer">Teacher's Answer:</label>
+            <textarea id="teacher_answer" name="teacher_answer" required></textarea>
+            <label for="student_answer">Student's Answer:</label>
+            <textarea id="student_answer" name="student_answer" required></textarea>
+            <button type="submit">Compare</button>
+        </form>
+        <div id="loading" style="display: none;">Please wait while we are comparing results...</div>
+    </div>
+</body>
+</html>

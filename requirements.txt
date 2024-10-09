@@ -1,0 +1,6 @@
+Flask
+transformers
+sentence-transformers
+langdetect
+torch
+protobuf
