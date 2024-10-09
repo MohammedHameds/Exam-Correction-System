@@ -3,7 +3,7 @@
 ## Overview
 Exam Correction System allows teachers to compare student answers to the correct answers provided by the teacher, and the system utilizes advanced deep learning models to assess whether the meanings of both answers alig, and it's a valuable tool for enhancing personalized learning and ensuring students understand key concepts.
 
-![img](images\img.png)
+![img.png](images/img.png)
 
 ## Features
 - Compare student answers with the correct answers.
